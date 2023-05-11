@@ -1,0 +1,15 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: health_backend
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 39edf8df-702f-4217-aec6-c98819a5a923
+dubbo:
+  consumer:
+    check: false
+logging:
+  config: classpath:logback.xml

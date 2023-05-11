@@ -1,0 +1,40 @@
+server:
+  port: 7100
+
+spring:
+  application:
+    name: health_service_provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 39edf8df-702f-4217-aec6-c98819a5a923
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/yh_health?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-active: 20
+      max-wait: 60000
+      initial-size: 5
+      min-idle: 5
+dubbo:
+  scan:
+    base-packages: cn.yunhe
+  protocol:
+    name: dubbo
+    port: 20887
+  registry:
+    address: nacos://127.0.0.1:8848
+  consumer:
+    check: false
+    timeout: 3000
+    retries: -1
+logging:
+  config: classpath:logback.xml
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mappers/*.xml
