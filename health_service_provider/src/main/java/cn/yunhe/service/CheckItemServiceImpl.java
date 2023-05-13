@@ -1,21 +1,25 @@
 package cn.yunhe.service;
 
+import cn.yunhe.constant.RedisConstant;
 import cn.yunhe.entity.PageResult;
 import cn.yunhe.entity.QueryPageBean;
-import cn.yunhe.entity.Result;
 import cn.yunhe.exception.BusinessException;
 import cn.yunhe.mapper.CheckGroupAndItemMapper;
 import cn.yunhe.mapper.CheckItemMapper;
 import cn.yunhe.pojo.CheckGroupAndItem;
 import cn.yunhe.pojo.CheckItem;
-import com.alibaba.nacos.api.config.filter.IFilterConfig;
+import cn.yunhe.util.RedisUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.apache.dubbo.config.annotation.Service;
-import org.springframework.stereotype.Component;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
+
+import java.util.List;
 
 /**
  * 检查项接口实现类
@@ -24,14 +28,21 @@ import org.springframework.util.StringUtils;
  * @className CheckItemServiceImpl
  * since 1.0
  */
+@Slf4j
 @Service
 public class CheckItemServiceImpl implements CheckItemService {
     @Autowired
     private CheckItemMapper checkItemMapper;
     @Autowired
     private CheckGroupAndItemMapper checkGroupAndItemMapper;
+//    引入redis的key
+   String key= RedisConstant.QUERY_CHECKITEMS_KEY;
+   @Autowired
+   private RedisTemplate redisTemplate;
     @Override
     public void add(CheckItem checkItem) throws BusinessException {
+        //写操作前删除Redis中的缓存
+        RedisUtil.del(redisTemplate,key);
         if (checkItem.getName()==null|| StringUtils.isEmpty(checkItem.getCode())) {
             throw new BusinessException("请检查你输入的检查项名称以及编号！");
         }
@@ -53,6 +64,7 @@ public class CheckItemServiceImpl implements CheckItemService {
             checkItemLQW.like(CheckItem::getName,queryString)
                     .or()
                     .eq(CheckItem::getCode,queryString);
+
         }
         IPage<CheckItem> checkItemIPage = checkItemMapper.selectPage(checkItemPage, checkItemLQW);
 
@@ -61,14 +73,40 @@ public class CheckItemServiceImpl implements CheckItemService {
 
     @Override
     public CheckItem findById(Integer id) throws BusinessException {
+        CheckItem checkItem;
         if (id==null){
             throw new BusinessException("id不能为空！");
         }
-        return checkItemMapper.selectById(id);
+        if (redisTemplate.hasKey(key)){
+            log.info("==========CheckItem的findAll方法走了redis缓存！");
+            checkItem = (CheckItem) redisTemplate.opsForValue().get(key);
+        }else {
+            checkItem = checkItemMapper.selectById(id);
+            log.info("==========CheckItem的findAll方法走了数据库！");
+            redisTemplate.opsForValue().set(key,checkItem);
+        }
+        return checkItem;
     }
 
     @Override
+    public List<CheckItem> findAll() throws BusinessException {
+        List<CheckItem> checkItems ;
+        if (redisTemplate.hasKey(key)){
+            log.info("==========CheckItem的findAll方法走了redis缓存！");
+            checkItems = (List<CheckItem>) redisTemplate.opsForValue().get(key);
+        }else {
+            checkItems = checkItemMapper.selectList(null);
+            log.info("==========CheckItem的findAll方法走了数据库！");
+            redisTemplate.opsForValue().set(key,checkItems);
+        }
+        return checkItems;
+    }
+
+    @Override
+    @Transactional
     public void edit(CheckItem checkItem) throws BusinessException  {
+        //写操作前删除Redis中的缓存
+        RedisUtil.del(redisTemplate,key);
         //获得编辑框中的新的code和name
         String code = checkItem.getCode();
         String name = checkItem.getName();
@@ -85,7 +123,10 @@ public class CheckItemServiceImpl implements CheckItemService {
     }
 
     @Override
+    @Transactional
     public void delete(Integer id) {
+        //写操作前删除Redis中的缓存
+        RedisUtil.del(redisTemplate,key);
         CheckItem checkItem = checkItemMapper.selectById(id);
         if (checkItem==null){
             throw new BusinessException("此检查项不存在！");

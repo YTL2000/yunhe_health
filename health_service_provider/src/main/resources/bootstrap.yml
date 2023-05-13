@@ -9,6 +9,12 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
         namespace: 39edf8df-702f-4217-aec6-c98819a5a923
+      config:
+        server-addr: 127.0.0.1:8848
+        name: redis
+        group: COMMON_GROUP
+        file-extension: yaml
+        namespace: 39edf8df-702f-4217-aec6-c98819a5a923
   datasource:
     username: root
     password: 123456

@@ -1,0 +1,67 @@
+2023-05-11 10:38:23,129 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 10:39:23,550 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 70.219 seconds (JVM running for 72.433)
+2023-05-11 12:11:53,327 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 12:12:01,005 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 9.926 seconds (JVM running for 11.905)
+2023-05-11 13:58:18,260 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 13:58:25,421 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.727 seconds (JVM running for 9.997)
+2023-05-11 14:18:53,803 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 14:19:01,161 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.932 seconds (JVM running for 10.202)
+2023-05-11 14:51:12,533 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 14:51:22,570 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 12.0 seconds (JVM running for 13.728)
+2023-05-11 15:16:29,255 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 15:16:39,236 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 12.886 seconds (JVM running for 14.442)
+2023-05-11 15:17:02,776 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 15:17:12,243 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 11.171 seconds (JVM running for 12.764)
+2023-05-11 15:19:00,889 INFO (CheckItemServiceImpl.java:85)- ==========CheckItem的findAll方法走了数据库！
+2023-05-11 15:19:09,489 INFO (CheckItemServiceImpl.java:81)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 15:31:46,433 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 15:31:55,557 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 11.005 seconds (JVM running for 12.421)
+2023-05-11 15:37:22,145 INFO (CheckItemServiceImpl.java:97)- ==========CheckItem的findAll方法走了数据库！
+2023-05-11 16:07:29,014 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 16:07:37,347 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 10.072 seconds (JVM running for 11.415)
+2023-05-11 16:08:13,436 INFO (CheckItemServiceImpl.java:97)- ==========CheckItem的findAll方法走了数据库！
+2023-05-11 16:08:35,876 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:25:30,220 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 16:25:40,809 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 12.289 seconds (JVM running for 13.966)
+2023-05-11 16:26:37,397 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:26:40,031 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:27:13,478 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:27:37,893 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:27:56,078 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:28:09,403 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:31:52,555 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 16:32:01,143 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 10.276 seconds (JVM running for 11.613)
+2023-05-11 16:41:28,052 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 16:41:38,575 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 12.326 seconds (JVM running for 14.197)
+2023-05-11 16:43:27,110 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:58:53,277 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 16:59:02,430 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 10.822 seconds (JVM running for 12.236)
+2023-05-11 16:59:14,878 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:59:18,718 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:59:25,337 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 16:59:29,458 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:00:05,864 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:00:12,340 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:00:14,993 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:00:17,810 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:00:20,819 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:03:34,058 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:03:36,821 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:03:39,304 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:03:41,619 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:03:46,065 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:03:52,602 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:21:09,865 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 17:21:18,816 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 10.64 seconds (JVM running for 12.106)
+2023-05-11 17:21:31,567 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:22:29,786 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:22:37,614 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:22:40,459 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:22:50,577 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:38:03,851 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-11 17:38:13,134 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 11.111 seconds (JVM running for 12.521)
+2023-05-11 17:39:18,240 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:39:43,960 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:39:48,416 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:39:55,096 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！
+2023-05-11 17:40:51,593 INFO (CheckItemServiceImpl.java:93)- ==========CheckItem的findAll方法走了redis缓存！

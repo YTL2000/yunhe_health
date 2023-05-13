@@ -1,49 +1,65 @@
-2023-05-10 15:50:37,222 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 15:50:42,505 INFO (StartupInfoLogger.java:61)- Started BackApplication in 6.808 seconds (JVM running for 8.112)
-2023-05-10 15:53:41,142 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 15:53:46,284 INFO (StartupInfoLogger.java:61)- Started BackApplication in 6.613 seconds (JVM running for 7.8)
-2023-05-10 16:04:50,928 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 16:04:56,706 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.354 seconds (JVM running for 9.105)
-2023-05-10 16:32:56,553 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 16:33:02,517 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.471 seconds (JVM running for 8.81)
-2023-05-10 16:55:51,778 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 16:55:57,948 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.755 seconds (JVM running for 9.139)
-2023-05-10 17:01:20,148 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 17:02:38,209 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 17:09:35,199 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 17:17:22,126 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 17:22:04,933 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 17:22:11,009 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.6 seconds (JVM running for 9.174)
-2023-05-10 17:25:13,699 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 17:25:19,795 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.654 seconds (JVM running for 8.838)
-2023-05-10 18:47:05,105 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 18:47:11,401 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.914 seconds (JVM running for 9.042)
-2023-05-10 18:48:42,942 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 18:48:48,908 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.509 seconds (JVM running for 8.616)
-2023-05-10 18:51:02,410 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 18:51:08,391 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.111 seconds (JVM running for 9.487)
-2023-05-10 18:54:50,599 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 18:54:56,551 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.543 seconds (JVM running for 8.714)
-2023-05-10 19:26:03,004 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:26:09,018 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.53 seconds (JVM running for 8.846)
-2023-05-10 19:26:20,175 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Request method 'DELETE' not supported
-2023-05-10 19:27:49,313 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:27:56,191 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.068 seconds (JVM running for 10.465)
-2023-05-10 19:28:17,910 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:28:24,058 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.71 seconds (JVM running for 8.835)
-2023-05-10 19:30:04,719 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:30:10,704 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.562 seconds (JVM running for 8.92)
-2023-05-10 19:42:40,912 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:42:46,932 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.587 seconds (JVM running for 8.733)
-2023-05-10 19:43:55,359 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:44:01,357 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.648 seconds (JVM running for 8.914)
-2023-05-10 19:59:34,971 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 19:59:40,987 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.577 seconds (JVM running for 8.665)
-2023-05-10 20:00:13,900 ERROR (GlobalExceptionHandler.java:27)- =====>>>发生了自定义异常信息：你所输入的检查项名称和编号已经存在！
-2023-05-10 20:00:39,944 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 11:46:17,868 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 11:48:09,164 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 11:48:16,217 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.824 seconds (JVM running for 10.15)
+2023-05-13 11:48:42,080 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to invoke the method findById in the service cn.yunhe.service.CheckGroupService. Tried 3 times of the providers [192.168.1.4:20887] (1/1) from the registry localhost:9090 on the consumer 192.168.1.4 using the dubbo version 2.7.6. Last error is: Invoke remote method timeout. method: findById, provider: dubbo://192.168.1.4:20887/cn.yunhe.service.CheckGroupService?anyhost=true&application=health_backend&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&init=false&interface=cn.yunhe.service.CheckGroupService&methods=add,edit,findCheckItemIdsByCheckGroupId,findById,findPage,delete&pid=9912&qos.enable=false&register.ip=192.168.1.4&release=2.7.6&remote.application=health_service_provider&side=consumer&sticky=false&timestamp=1683949678138, cause: org.apache.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2023-05-13 11:48:41.054, end time: 2023-05-13 11:48:42.076, client elapsed: 0 ms, server elapsed: 1022 ms, timeout: 1000 ms, request: Request [id=8, version=2.0.2, twoway=true, event=false, broken=false, data=null], channel: /192.168.1.4:65100 -> /192.168.1.4:20887
+2023-05-13 11:48:52,575 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to invoke the method findById in the service cn.yunhe.service.CheckGroupService. Tried 3 times of the providers [192.168.1.4:20887] (1/1) from the registry localhost:9090 on the consumer 192.168.1.4 using the dubbo version 2.7.6. Last error is: Invoke remote method timeout. method: findById, provider: dubbo://192.168.1.4:20887/cn.yunhe.service.CheckGroupService?anyhost=true&application=health_backend&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&init=false&interface=cn.yunhe.service.CheckGroupService&methods=add,edit,findCheckItemIdsByCheckGroupId,findById,findPage,delete&pid=9912&qos.enable=false&register.ip=192.168.1.4&release=2.7.6&remote.application=health_service_provider&side=consumer&sticky=false&timestamp=1683949678138, cause: org.apache.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2023-05-13 11:48:51.562, end time: 2023-05-13 11:48:52.574, client elapsed: 0 ms, server elapsed: 1012 ms, timeout: 1000 ms, request: Request [id=12, version=2.0.2, twoway=true, event=false, broken=false, data=null], channel: /192.168.1.4:65100 -> /192.168.1.4:20887
+2023-05-13 11:48:57,948 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to invoke the method findById in the service cn.yunhe.service.CheckGroupService. Tried 3 times of the providers [192.168.1.4:20887] (1/1) from the registry localhost:9090 on the consumer 192.168.1.4 using the dubbo version 2.7.6. Last error is: Invoke remote method timeout. method: findById, provider: dubbo://192.168.1.4:20887/cn.yunhe.service.CheckGroupService?anyhost=true&application=health_backend&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&init=false&interface=cn.yunhe.service.CheckGroupService&methods=add,edit,findCheckItemIdsByCheckGroupId,findById,findPage,delete&pid=9912&qos.enable=false&register.ip=192.168.1.4&release=2.7.6&remote.application=health_service_provider&side=consumer&sticky=false&timestamp=1683949678138, cause: org.apache.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2023-05-13 11:48:56.936, end time: 2023-05-13 11:48:57.947, client elapsed: 0 ms, server elapsed: 1011 ms, timeout: 1000 ms, request: Request [id=17, version=2.0.2, twoway=true, event=false, broken=false, data=null], channel: /192.168.1.4:65100 -> /192.168.1.4:20887
+2023-05-13 15:31:00,236 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 15:31:07,176 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.747 seconds (JVM running for 10.04)
+2023-05-13 15:32:54,437 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 15:33:01,463 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.668 seconds (JVM running for 9.946)
+2023-05-13 15:41:39,082 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 15:41:45,758 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.356 seconds (JVM running for 9.563)
+2023-05-13 16:13:40,241 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 16:13:48,509 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.225 seconds (JVM running for 11.547)
+2023-05-13 16:14:58,988 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 16:15:06,911 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.745 seconds (JVM running for 11.749)
+2023-05-13 17:14:47,434 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 17:14:55,560 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.416 seconds (JVM running for 11.822)
+2023-05-13 17:16:31,366 INFO (SetMealController.java:43)- 上传文件发生异常，e:POST https://upload-z2.qiniup.com/  
+{ResponseInfo:com.qiniu.http.Response@50c11dd4,status:400, reqId:rwoAAAA78zM9qV4X, xlog:X-Log, xvia:, adress:upload-z2.qiniup.com/120.83.145.4:443, duration:0.469000 s, error:incorrect region, please use up-z1.qiniup.com, bucket is: yh-health0507}  
+{"error":"incorrect region, please use up-z1.qiniup.com, bucket is: yh-health0507"}
+2023-05-13 17:16:31,368 ERROR (GlobalExceptionHandler.java:27)- =====>>>发生了自定义异常信息：上传图片失败！
+2023-05-13 17:28:11,102 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 17:28:19,059 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.149 seconds (JVM running for 11.398)
+2023-05-13 17:37:19,439 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 17:37:26,085 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.341 seconds (JVM running for 9.548)
+2023-05-13 18:25:59,051 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:26:06,969 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.714 seconds (JVM running for 10.908)
+2023-05-13 18:28:05,764 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:28:12,592 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.581 seconds (JVM running for 9.954)
+2023-05-13 18:30:10,786 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:30:17,710 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.534 seconds (JVM running for 10.291)
+2023-05-13 18:31:50,666 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:31:57,544 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.546 seconds (JVM running for 9.803)
+2023-05-13 18:32:56,035 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer[]'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+2023-05-13 18:38:35,231 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:38:42,015 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.421 seconds (JVM running for 9.576)
+2023-05-13 18:39:43,797 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer[]'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+2023-05-13 18:42:00,744 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:42:08,138 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.218 seconds (JVM running for 10.497)
+2023-05-13 18:43:10,811 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：null
+2023-05-13 18:46:15,746 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:46:23,484 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.775 seconds (JVM running for 11.127)
+2023-05-13 18:48:48,727 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:48:56,201 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.443 seconds (JVM running for 10.618)
+2023-05-13 18:54:25,352 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:54:33,084 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.748 seconds (JVM running for 10.918)
+2023-05-13 18:55:18,908 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 此检查套餐名称已存在
+BusinessException(message=此检查套餐名称已存在)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:38)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$24132243.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -73,10 +89,23 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:00:48,478 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 18:57:03,916 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 18:57:11,534 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.835 seconds (JVM running for 11.013)
+2023-05-13 19:02:55,083 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:44)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$4d88cb8a.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -106,10 +135,21 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:01:06,450 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 19:02:58,501 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:44)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$4d88cb8a.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -139,12 +179,21 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:02:01,441 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 20:02:07,725 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.859 seconds (JVM running for 8.953)
-2023-05-10 20:02:28,430 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 19:03:28,058 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:44)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$4d88cb8a.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -174,10 +223,23 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:02:43,896 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 19:05:03,375 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 19:05:11,602 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.055 seconds (JVM running for 11.225)
+2023-05-13 19:06:20,150 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:45)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$95c2205f.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -207,12 +269,21 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:03:50,837 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2023-05-10 20:03:56,833 INFO (StartupInfoLogger.java:61)- Started BackApplication in 7.527 seconds (JVM running for 8.683)
-2023-05-10 20:04:30,178 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 19:06:45,948 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:45)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$95c2205f.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -242,10 +313,23 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:07:43,901 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 19:10:49,942 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 19:10:56,649 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.327 seconds (JVM running for 9.488)
+2023-05-13 19:11:34,471 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:45)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$c51599b9.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -275,11 +359,32 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:12:25,135 ERROR (GlobalExceptionHandler.java:27)- =====>>>发生了自定义异常信息：你所输入的检查项名称和编号已经存在！
-2023-05-10 20:12:33,340 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 19:14:57,333 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 19:15:04,793 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.194 seconds (JVM running for 10.29)
+2023-05-13 19:19:16,952 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to invoke the method add in the service cn.yunhe.service.SetmealService. Tried 3 times of the providers [192.168.1.4:20887] (1/1) from the registry localhost:9090 on the consumer 192.168.1.4 using the dubbo version 2.7.6. Last error is: Invoke remote method timeout. method: add, provider: dubbo://192.168.1.4:20887/cn.yunhe.service.SetmealService?anyhost=true&application=health_backend&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&init=false&interface=cn.yunhe.service.SetmealService&methods=add&pid=14056&qos.enable=false&register.ip=192.168.1.4&release=2.7.6&remote.application=health_service_provider&side=consumer&sticky=false&timestamp=1683976457197, cause: org.apache.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2023-05-13 19:16:25.865, end time: 2023-05-13 19:16:26.882, client elapsed: 1 ms, server elapsed: 1014 ms, timeout: 1000 ms, request: Request [id=11, version=2.0.2, twoway=true, event=false, broken=false, data=null], channel: /192.168.1.4:57901 -> /192.168.1.4:20887
+2023-05-13 19:19:50,133 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 19:19:58,854 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.737 seconds (JVM running for 12.138)
+2023-05-13 19:22:03,281 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Failed to invoke the method add in the service cn.yunhe.service.SetmealService. Tried 3 times of the providers [192.168.1.4:20887] (1/1) from the registry localhost:9090 on the consumer 192.168.1.4 using the dubbo version 2.7.6. Last error is: Invoke remote method timeout. method: add, provider: dubbo://192.168.1.4:20887/cn.yunhe.service.SetmealService?anyhost=true&application=health_backend&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&init=false&interface=cn.yunhe.service.SetmealService&methods=add&pid=2912&qos.enable=false&register.ip=192.168.1.4&release=2.7.6&remote.application=health_service_provider&side=consumer&sticky=false&timestamp=1683976791733, cause: org.apache.dubbo.remoting.TimeoutException: Waiting server-side response timeout by scan timer. start time: 2023-05-13 19:20:56.020, end time: 2023-05-13 19:20:57.060, client elapsed: 2 ms, server elapsed: 1037 ms, timeout: 1000 ms, request: Request [id=10, version=2.0.2, twoway=true, event=false, broken=false, data=null], channel: /192.168.1.4:58308 -> /192.168.1.4:20887
+2023-05-13 19:25:48,047 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 19:25:56,014 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.077 seconds (JVM running for 11.537)
+2023-05-13 19:32:31,802 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：Request method 'GET' not supported
+2023-05-13 21:41:29,158 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 21:41:36,159 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.632 seconds (JVM running for 10.075)
+2023-05-13 21:44:38,126 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:44)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$6aaca61e.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
@@ -309,10 +414,77 @@ BusinessException(message=检查项编码或名称已存在)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-2023-05-10 20:12:43,677 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 检查项编码或名称已存在
-BusinessException(message=检查项编码或名称已存在)
-	at cn.yunhe.service.CheckItemServiceImpl.edit(CheckItemServiceImpl.java:82)
-	at org.apache.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+2023-05-13 21:46:57,003 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 21:47:04,947 INFO (StartupInfoLogger.java:61)- Started BackApplication in 9.799 seconds (JVM running for 11.086)
+2023-05-13 21:51:33,510 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 21:51:41,614 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.002 seconds (JVM running for 11.746)
+2023-05-13 21:52:45,659 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:49)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$37cbdf88.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
+	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
+	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
+	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
+	at org.apache.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:56)
+	at org.apache.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:52)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:89)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:44)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:77)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:118)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:152)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:41)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:81)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:145)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:100)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:175)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023-05-13 22:07:07,310 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 22:07:15,436 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.011 seconds (JVM running for 11.441)
+2023-05-13 22:19:30,274 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 22:19:39,175 INFO (StartupInfoLogger.java:61)- Started BackApplication in 10.817 seconds (JVM running for 12.442)
+2023-05-13 22:22:26,947 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 22:22:33,619 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.28 seconds (JVM running for 9.456)
+2023-05-13 22:24:25,800 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-13 22:24:32,425 INFO (StartupInfoLogger.java:61)- Started BackApplication in 8.306 seconds (JVM running for 9.554)
+2023-05-13 22:25:56,157 ERROR (GlobalExceptionHandler.java:38)- =====>>>发生了系统异常信息：cn.yunhe.exception.BusinessException: 添加检查套餐时所包含的检查项不能为空！
+BusinessException(message=添加检查套餐时所包含的检查项不能为空！)
+	at cn.yunhe.service.SetmealServiceImpl.add(SetmealServiceImpl.java:71)
+	at cn.yunhe.service.SetmealServiceImpl$$FastClassBySpringCGLIB$$72335b2b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at cn.yunhe.service.SetmealServiceImpl$$EnhancerBySpringCGLIB$$bbf6d1e4.add(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
 	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
 	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
 	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)

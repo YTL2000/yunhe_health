@@ -9,8 +9,9 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import io.swagger.annotations.Api;
 import cn.yunhe.entity.Result;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @version 1.0
@@ -43,16 +44,23 @@ public class CheckItemController {
       checkItemService.delete(id);
         return new Result(true,MessageConstant.DELETE_CHECKITEM_SUCCESS);
     }
-    @ApiOperation("查看检查项详情")
+    @ApiOperation("根据id查找检查项")
     @GetMapping("/findById/{id}")
     public Result update(@PathVariable Integer id){
         CheckItem checkItem = checkItemService.findById(id);
         return new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,checkItem);
     }
-    @ApiOperation("查看检查项详情")
+    @ApiOperation("修改检查项")
     @PutMapping("/edit")
     public Result edit(@RequestBody CheckItem checkItem){
         checkItemService.edit(checkItem);
         return new Result(true,MessageConstant.EDIT_CHECKITEM_SUCCESS);
+    }
+
+    @ApiOperation("查找所有的检查项")
+    @GetMapping("/findAll")
+    public Result findAll(){
+       List<CheckItem> list= checkItemService.findAll();
+        return new Result(true,MessageConstant.EDIT_CHECKITEM_SUCCESS,list);
     }
 }

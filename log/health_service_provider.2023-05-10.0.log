@@ -1,0 +1,20 @@
+2023-05-10 16:55:24,321 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 16:55:30,933 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.162 seconds (JVM running for 9.38)
+2023-05-10 17:02:24,522 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 17:02:31,538 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.553 seconds (JVM running for 9.726)
+2023-05-10 17:09:09,854 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 17:09:16,836 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.513 seconds (JVM running for 10.026)
+2023-05-10 17:17:03,603 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 17:17:10,530 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.46 seconds (JVM running for 10.02)
+2023-05-10 17:21:46,944 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 17:21:53,899 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.488 seconds (JVM running for 10.112)
+2023-05-10 17:24:59,487 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 17:25:06,436 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.503 seconds (JVM running for 9.848)
+2023-05-10 18:46:48,952 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 18:46:56,451 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 9.076 seconds (JVM running for 10.298)
+2023-05-10 19:25:47,659 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 19:25:54,598 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.524 seconds (JVM running for 9.703)
+2023-05-10 19:42:26,039 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 19:42:33,169 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.699 seconds (JVM running for 9.877)
+2023-05-10 19:59:18,109 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2023-05-10 19:59:25,391 INFO (StartupInfoLogger.java:61)- Started ProviderApplication in 8.827 seconds (JVM running for 10.13)

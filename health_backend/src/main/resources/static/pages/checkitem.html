@@ -237,22 +237,22 @@
                     if (valid) {
                         axios.put("/checkitem/edit", this.formData).then((res) => {
                                 this.dialogFormVisible4Edit = false;
-                                    if(res.data.flag){
-                                        //编辑成功，弹出成功提示信息
-                                        this.$message({
-                                            message: res.data.message,
-                                            type: 'success'
-                                        });
-                                    }else{
-                                        //编辑失败，弹出错误提示信息
-                                        this.$message.error(res.data.message);
-                                    }
+                                if (res.data.flag) {
+                                    //编辑成功，弹出成功提示信息
+                                    this.$message({
+                                        message: res.data.message,
+                                        type: 'success'
+                                    });
+                                } else {
+                                    //编辑失败，弹出错误提示信息
+                                    this.$message.error(res.data.message);
+                                }
                             }
-                        ).finally(()=>{
+                        ).finally(() => {
                             //重新发送请求查询分页数据
                             this.findPage();
                         });
-                    }else {
+                    } else {
                         //表单校验失败
                         this.$message.error("表单数据校验失败");
                         return false;
@@ -277,6 +277,7 @@
                             }
                         }).finally(() => {
                             this.findPage();
+                            this.resetForm();
                         })
                     } else {
                         this.$message.error("表单数据校验失败");
@@ -293,9 +294,7 @@
             },
             // 重置表单
             resetForm() {
-                formData: {
-                }
-                ;
+               this.formData={};
             },
             // 弹出添加窗口
             handleCreate() {
